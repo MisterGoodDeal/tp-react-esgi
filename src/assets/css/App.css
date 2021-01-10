@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 30px 150px 30px 150px;
+    -webkit-box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.2);
+}
+
+.logo {
+    width: 100%;
+    height: 60px;
+}
+
+.textHeader {
+    color: rgb(22, 22, 22);
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formLogin p {
+    font-weight: 300;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+}
+
+.formLogin .emailHint {
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+.formLogin input {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: rgb(0, 130, 216) 3px solid;
+    border-radius: 100px;
+    outline: none;
+    padding: 15px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn-hover {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    }
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #2bb673, #2bb673, #25aae1);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.displayInfos {
+    color: #6b0079;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+}
